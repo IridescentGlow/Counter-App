@@ -24,19 +24,19 @@ export default function CounterApp() {
       </motion.div>
       <div className="flex gap-4 mt-10">
         <button 
-          className="bg-green-500 hover:bg-green-600 px-6 py-3 text-lg rounded-xl shadow-lg"
+          className="bg-green-500 hover:bg-green-600 cursor-pointer transition duration-300 ease px-6 py-3 text-lg rounded-xl shadow-lg"
           onClick={() => setCount(count + 1)}
         >
           + Increase
         </button>
         <button 
-          className="bg-red-500 hover:bg-red-600 px-6 py-3 text-lg rounded-xl shadow-lg"
+          className="bg-red-500 hover:bg-red-600 cursor-pointer transition duration-300 ease px-6 py-3 text-lg rounded-xl shadow-lg"
           onClick={() => setCount(count - 1)}
         >
           - Decrease
         </button>
         <button 
-          className="bg-gray-700 hover:bg-gray-800 px-6 py-3 text-lg rounded-xl shadow-lg"
+          className="bg-gray-700 hover:bg-gray-800 cursor-pointer transition duration-300 ease px-6 py-3 text-lg rounded-xl shadow-lg"
           onClick={() => setCount(0)}
         >
           Reset
